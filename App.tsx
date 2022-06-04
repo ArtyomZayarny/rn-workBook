@@ -21,7 +21,6 @@ import {
 import {
   Colors,
   DebugInstructions,
-  Header,
   LearnMoreLinks,
   ReloadInstructions,
 } from 'react-native/Libraries/NewAppScreen';
@@ -67,7 +66,7 @@ const App: () => Node = () => {
         contentInsetAdjustmentBehavior="automatic"
         style={backgroundStyle}>
         {/* <Header /> */}
-        <Hello name={'Tim'} />
+        <Hello name={'Tim!'} />
         <View
           style={{
             backgroundColor: isDarkMode ? Colors.black : Colors.white,
